@@ -40,6 +40,8 @@ class phone implements Runnable{
         lock.lock();
         try {
             System.out.println(Thread.currentThread().getName() + "  invoke set");
+        }catch (Exception e){
+            e.printStackTrace();
         }finally {
            lock.unlock();
         }

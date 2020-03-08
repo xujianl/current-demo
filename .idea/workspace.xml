@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44fc1199-c883-421a-9b29-73551dd99caa" name="Default Changelist" comment="" />
+    <list default="true" id="44fc1199-c883-421a-9b29-73551dd99caa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/ReadWriteLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xj/ReentrantlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xj/ReentrantlockDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +28,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\workspace\newlwarnning\interview\current-demo\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -40,7 +51,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YTVfsb5U4MCwWXc5yVk4OetVJg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -60,7 +73,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.spinLockDemo">
+  <component name="RunManager" selected="Application.ReadWriteLockDemo">
     <configuration name="ABADemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xj.ABADemo" />
       <module name="current-demo" />
@@ -74,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.AtomicReferenceDemo" />
+    <configuration name="CollectionsUnsafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.CollectionsUnsafe" />
       <module name="current-demo" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsUnsafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.CollectionsUnsafe" />
+    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.ReadWriteLockDemo" />
       <module name="current-demo" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadWriteLockDemo" />
         <item itemvalue="Application.spinLockDemo" />
         <item itemvalue="Application.ReentrantlockDemo" />
         <item itemvalue="Application.CollectionsUnsafe" />
         <item itemvalue="Application.ABADemo" />
-        <item itemvalue="Application.AtomicReferenceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -162,18 +175,45 @@
       <workItem from="1582966682306" duration="36276000" />
       <workItem from="1583070022895" duration="686000" />
       <workItem from="1583072359828" duration="3688000" />
-      <workItem from="1583657364894" duration="6185000" />
+      <workItem from="1583657364894" duration="9359000" />
     </task>
+    <task id="LOCAL-00001" summary="current-demo初始化">
+      <created>1583668265213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583668265213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="current-demo初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="current-demo初始化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1583067480498">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1583067480498" />
+    <state x="590" y="229" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583671555079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="590" y="229" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.824@0.0.1536.824" timestamp="1583671555079" />
     <state x="681" y="118" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582984588700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,26 +230,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="664" y="242" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1582984691601" />
+    <state x="328" y="5" key="CommitChangelistDialog2" timestamp="1583672917287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="328" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583672917287" />
     <state x="682" y="154" key="FileChooserDialogImpl" timestamp="1583668113143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="682" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583668113143" />
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1583666335178">
+    <state width="1493" height="440" key="GridCell.Tab.0.bottom" timestamp="1583672800158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583666335178" />
-    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1583666335178">
+    <state width="1493" height="440" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583672800158" />
+    <state width="1493" height="440" key="GridCell.Tab.0.center" timestamp="1583672800157">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583666335178" />
-    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1583666335176">
+    <state width="1493" height="440" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583672800157" />
+    <state width="1493" height="440" key="GridCell.Tab.0.left" timestamp="1583672800157">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583666335176" />
-    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1583666335178">
+    <state width="1493" height="440" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583672800157" />
+    <state width="1493" height="440" key="GridCell.Tab.0.right" timestamp="1583672800158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583666335178" />
+    <state width="1493" height="440" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583672800158" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1583120821319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,10 +270,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583120821319" />
-    <state x="238" y="18" width="1270" height="714" key="SettingsEditor" timestamp="1583668086750">
+    <state x="238" y="18" width="1270" height="714" key="SettingsEditor" timestamp="1583672166744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="238" y="18" width="1270" height="714" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583668086750" />
+    <state x="238" y="18" width="1270" height="714" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583672166744" />
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1583668350552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583668350552" />
     <state x="499" y="166" key="extract.method.dialog" timestamp="1582969275059">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
