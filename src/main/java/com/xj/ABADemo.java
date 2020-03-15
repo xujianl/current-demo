@@ -38,7 +38,7 @@ public class ABADemo {
         } catch (InterruptedException e) {
               e.printStackTrace();
          }
-        System.out.println("//////////////////ABA问题的产生//////////////////");
+        System.out.println("//////////////////ABA问题的解决//////////////////");
         new Thread(() -> {
             int stamp = atomicStampedReference.getStamp();
             System.out.println(Thread.currentThread().getName()+"\t" + "第1次版本号" + stamp);
