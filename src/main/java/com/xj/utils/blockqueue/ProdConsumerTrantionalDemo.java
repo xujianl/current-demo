@@ -56,7 +56,7 @@ class MyData{
         }
     }
 }
-public class BlockQueueTrantionalDemo {
+public class ProdConsumerTrantionalDemo {
     public static void main(String[] args) {
         MyData myData = new MyData();
         new Thread(() -> {
