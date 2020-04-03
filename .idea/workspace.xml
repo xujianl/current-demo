@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44fc1199-c883-421a-9b29-73551dd99caa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/CountryEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/blockqueue/BlockQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/blockqueue/BlockQueueTrantionalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/blockqueue/synchronousQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/blockqueue/ProdConsumerBlockQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/threadpools/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/threadpools/MyThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xj/ABADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xj/ABADemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xj/ABADemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xj/ABADemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +81,35 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.BlockQueueTrantionalDemo">
-    <configuration name="BlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.utils.blockqueue.BlockQueueDemo" />
+  <component name="RunManager" selected="Application.MyThreadPoolDemo">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.utils.threadpools.CallableDemo" />
+      <module name="current-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xj.utils.threadpools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.utils.threadpools.MyThreadPoolDemo" />
+      <module name="current-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xj.utils.threadpools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdConsumerBlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.utils.blockqueue.ProdConsumerBlockQueueDemo" />
       <module name="current-demo" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlockQueueTrantionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.utils.blockqueue.BlockQueueTrantionalDemo" />
+    <configuration name="ProdConsumerTrantionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.utils.blockqueue.ProdConsumerTrantionalDemo" />
       <module name="current-demo" />
       <extension name="coverage">
         <pattern>
@@ -112,34 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.CyclicBarrierDemo" />
-      <module name="current-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xj.utils.blockqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.SemaphoreDemo" />
-      <module name="current-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xj.utils.blockqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="synchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xj.utils.blockqueue.synchronousQueueDemo" />
+    <configuration name="SyncAndReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xj.utils.blockqueue.SyncAndReentrantLockDemo" />
       <module name="current-demo" />
       <extension name="coverage">
         <pattern>
@@ -153,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BlockQueueTrantionalDemo" />
-        <item itemvalue="Application.synchronousQueueDemo" />
-        <item itemvalue="Application.BlockQueueDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.CyclicBarrierDemo" />
+        <item itemvalue="Application.MyThreadPoolDemo" />
+        <item itemvalue="Application.CallableDemo" />
+        <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
+        <item itemvalue="Application.SyncAndReentrantLockDemo" />
+        <item itemvalue="Application.ProdConsumerTrantionalDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +188,9 @@
       <workItem from="1583933590314" duration="2677000" />
       <workItem from="1584020019275" duration="599000" />
       <workItem from="1584148418027" duration="4700000" />
-      <workItem from="1584235028819" duration="3214000" />
+      <workItem from="1584235028819" duration="12792000" />
+      <workItem from="1584756204162" duration="2022000" />
+      <workItem from="1585923450199" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="current-demo初始化">
       <created>1583668265213</created>
@@ -208,7 +206,35 @@
       <option name="project" value="LOCAL" />
       <updated>1583672925127</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="current-demo初始化">
+      <created>1584238696925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584238696925</updated>
+    </task>
+    <task id="LOCAL-00004" summary="current-demo初始化">
+      <created>1584238749817</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584238749817</updated>
+    </task>
+    <task id="LOCAL-00005" summary="current-demo初始化">
+      <created>1584259423114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584259423114</updated>
+    </task>
+    <task id="LOCAL-00006" summary="current-demo初始化">
+      <created>1584266228602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584266228602</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,10 +270,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="681" y="118" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1582984588700" />
-    <state x="520" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1583765190001">
+    <state x="520" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1584760677596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="520" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583765190001" />
+    <state x="520" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584760677596" />
     <state x="389" y="91" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583066976379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -256,30 +282,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="664" y="242" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1582984691601" />
-    <state x="328" y="5" key="CommitChangelistDialog2" timestamp="1584238693507">
+    <state x="328" y="5" key="CommitChangelistDialog2" timestamp="1584266226452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="328" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584238693507" />
+    <state x="328" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584266226452" />
     <state x="682" y="154" key="FileChooserDialogImpl" timestamp="1583668113143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="682" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583668113143" />
-    <state width="1493" height="81" key="GridCell.Tab.0.bottom" timestamp="1584238652565">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1585924178841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="81" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584238652565" />
-    <state width="1493" height="81" key="GridCell.Tab.0.center" timestamp="1584238652565">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585924178841" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1585924178840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="81" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584238652565" />
-    <state width="1493" height="81" key="GridCell.Tab.0.left" timestamp="1584238652564">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585924178840" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1585924178840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="81" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584238652564" />
-    <state width="1493" height="81" key="GridCell.Tab.0.right" timestamp="1584238652565">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585924178840" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1585924178840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="81" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584238652565" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585924178840" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1583120821319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -304,10 +330,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1583765148853" />
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1584238702116">
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1584266230287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584238702116" />
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584266230287" />
     <state x="499" y="166" key="extract.method.dialog" timestamp="1583764804576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
