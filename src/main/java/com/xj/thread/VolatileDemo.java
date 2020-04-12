@@ -1,4 +1,4 @@
-package com.xj;
+package com.xj.thread;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author 徐建
  * @PackageName:com.xj
  * @ClassName: VolatileDemo
- * @Description:
+ * @Description:Volatile 可见性验证
  * @date 2020/2/29 17:02
  */
 

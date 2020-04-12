@@ -1,4 +1,4 @@
-package com.xj;
+package com.xj.thread;
 
 import java.util.ArrayList;
 import java.util.Collections;

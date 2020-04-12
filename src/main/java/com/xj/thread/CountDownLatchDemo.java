@@ -1,4 +1,4 @@
-package com.xj;
+package com.xj.thread;
 
 import com.xj.utils.CountryEnum;
 

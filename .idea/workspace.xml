@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44fc1199-c883-421a-9b29-73551dd99caa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/blockqueue/ProdConsumerBlockQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/threadpools/CallableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xj/utils/threadpools/MyThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xj/ABADemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xj/ABADemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xj/ABADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xj/ABADemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xj/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xj/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xj/spinLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xj/spinLockDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +190,8 @@
       <workItem from="1584235028819" duration="12792000" />
       <workItem from="1584756204162" duration="2022000" />
       <workItem from="1585923450199" duration="711000" />
+      <workItem from="1586510480186" duration="464000" />
+      <workItem from="1586654110346" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="current-demo初始化">
       <created>1583668265213</created>
@@ -282,10 +283,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="664" y="242" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1582984691601" />
-    <state x="328" y="5" key="CommitChangelistDialog2" timestamp="1584266226452">
+    <state x="328" y="5" key="CommitChangelistDialog2" timestamp="1585924204652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="328" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584266226452" />
+    <state x="328" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585924204652" />
     <state x="682" y="154" key="FileChooserDialogImpl" timestamp="1583668113143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -330,10 +331,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1583765148853" />
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1584266230287">
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1585924212240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584266230287" />
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585924212240" />
     <state x="499" y="166" key="extract.method.dialog" timestamp="1583764804576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

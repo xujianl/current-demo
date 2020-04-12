@@ -1,4 +1,4 @@
-package com.xj;
+package com.xj.thread;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * @author 徐建
  * @PackageName:com.xj
  * @ClassName: spinLockDemo
- * @Description:
+ * @Description:手写自旋锁
  * @date 2020/3/8 19:08
  */
 public class spinLockDemo {

@@ -1,4 +1,4 @@
-package com.xj;
+package com.xj.thread;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

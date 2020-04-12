@@ -1,4 +1,4 @@
-package com.xj;
+package com.xj.thread;
 
 /**
  * @author 徐建

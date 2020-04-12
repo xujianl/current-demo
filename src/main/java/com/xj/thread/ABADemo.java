@@ -1,4 +1,4 @@
-package com.xj;
+package com.xj.thread;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicStampedReference;
  * @author 徐建
  * @PackageName:com.xj
  * @ClassName: ABAdEMO
- * @Description:
+ * @Description:ABA问题
  * @date 2020/3/1 21:02
  */
 public class ABADemo {
