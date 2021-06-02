@@ -1,5 +1,6 @@
 package com.xj.thread;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -22,6 +23,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 public class CollectionsUnsafe {
     public static void main(String[] args) {
+        System.out.println("第二次修改");
         List<String> list = new CopyOnWriteArrayList<>();//new ArrayList<>();
         for (int i = 1; i < 30; i++) {
             new Thread(() -> {
