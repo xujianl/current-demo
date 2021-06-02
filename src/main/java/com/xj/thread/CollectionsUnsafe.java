@@ -23,7 +23,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 public class CollectionsUnsafe {
     public static void main(String[] args) {
-        System.out.println("第二次修改");
+        System.out.println("第四次修改");
         List<String> list = new CopyOnWriteArrayList<>();//new ArrayList<>();
         for (int i = 1; i < 30; i++) {
             new Thread(() -> {
